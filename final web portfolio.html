@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jhun Paul P. Petargue Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* BACKGROUND */
+    body {
+      background-image: url('sea.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center; /* 🔥 Centers all inline content */
+    }
+
+    /* NAVBAR */
+    .navbar {
+      display: flex;
+      justify-content: center; /* 🔥 Centers navbar */
+      align-items: center;
+      padding: 15px;
+      background: rgba(0,0,0,0.6);
+    }
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 25px;
+    }
+    .nav-links a {
+      text-decoration: none;
+      font-size: 20px;
+      color: white;
+    }
+    .logo {
+      color: white;
+      margin-right: 40px;
+      font-size: 25px;
+    }
+
+    /* HERO SECTION */
+    .hero {
+      padding: 60px 20px;
+    }
+    .profile-img {
+      border-radius: 50%;
+      border: 3px solid white;
+    }
+    .highlight {
+      color: yellow;
+    }
+    .btn {
+      background: black;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+
+    /* ABOUT SECTION */
+    .about {
+      width: 80%;
+      margin: auto; /* 🔥 Centers entire about block */
+      background: rgba(255,255,255,0.7);
+      padding: 30px;
+      border-radius: 10px;
+    }
+
+    /* PROJECTS */
+    .projects {
+      padding: 40px 20px;
+    }
+    .project-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* 🔥 Centers cards */
+      gap: 20px;
+    }
+    .project-card {
+      width: 260px;
+      background: rgba(255,255,255,0.75);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    /* CONTACT */
+    .contact ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding: 15px;
+      background: rgba(0,0,0,0.6);
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">My Portfolio</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="hero">
+    <img src="me.jpg" width="180" height="180" alt="Profile Picture" class="profile-img">
+    <h2>Hello, I'm <span class="highlight">Jhun Paul P. Petargue</span></h2>
+    <p>IT Student • Aspiring Developer • Future Professional</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="about">
+    <h1>About Me</h1>
+    <p>
+      Hello there! I'm Jhun Paul P. Petargue, a 18-year-old born on July, 21 2007 and i live in Caminawit, San Jose, Occidental Mindoro,<br>
+	  My hobbies Are playing volleyball, listening to music, playing online games, and spending time with my friend.
+      <br><br>
+      My favorite food is brownies and my favorite drink is coffee.<br> My Motto in life is <b>"Learning is the new winning". </b>
+    
+    </p>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section id="projects" class="projects">
+    <h1>My Projects</h1>
+    <div class="project-list">
+
+      <div class="project-card">
+        <img src="istori.jpg" width="200" height="200" alt="Story Project">
+        <h2>Story in the Book</h2>
+        <p>First actvity in html.</p>
+        <a href="ACTIVITY NO.1 story.html" class="btn" target="_blank">View Story</a>
+      </div>
+
+      <div class="project-card">
+        <img src="recippic.jpg" width="200" height="200" alt="Recipe Project">
+        <h2>Recipe</h2>
+        <p>Online recipe form for customized bopis instructions.</p>
+        <a href="ACTIVITY NO.2 bopis.html" class="btn">View Recipe</a>
+      </div>
+
+      <div class="project-card">
+        <img src="teatea.jpg" width="200" height="200" alt="Order Form Project">
+        <h2>Order Form</h2>
+        <p>A simple platform for customers to place milk tea orders.</p>
+        <a href="ACTIVITY NO.3 order form.html" class="btn">View Order Form</a>
+      </div>
+
+      <div class="project-card">
+        <img src="hayt.jpg" width="200" height="200" alt="Converter Project">
+        <h2>Height & Weight Converter</h2>
+        <p>Height & Weight converter tool.</p>
+        <a href="ACTIVITY NO.4 converter.html" class="btn">View Bicycle</a>
+      </div>
+
+      <div class="project-card">
+        <img src="bike.jpg" width="200" height="200" alt="Bicycle Project">
+        <h2>Bicycle</h2>
+        <p>Bicycle image.</p>
+        <a href="ACTIVITY NO.5 Bicycle.html" class="btn">View Converter</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <p>If you want to reach out, message me here:</p>
+    <ul>
+      <li>Email: <a href="petarguepaul@gmail.com">petarguepaul@gmail.com</a></li>
+      <li>Facebook: <a href="https://www.facebook.com/share/1DSJzKt5be/?mibextid=wwXIfr target="_blank">Paul Penaflor Petargue</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Petargue, Jhun Paul P. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
